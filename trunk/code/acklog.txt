@@ -1,0 +1,23 @@
+Log of A8 Engine 8.32.8 run at Sat Jun 16 22:48:50 2012
+Christian on Windows NT/2000/XP version 6.1 Build 7601
+Options C:\Users\Christian\Desktop\ITL\code\npc.h -diag
+App: G:\Dev\Engines\A8.32.0\acknex.exe in C:\Users\Christian\Desktop\ITL\code\
+
+MM mixer opened
+DSOUND device opened
+DI interface opened
+Start Window opened(c) Conitec - www.3dgamestudio.com
+A8 Engine - Pro Edition V8.32.8 - Jun  8 2012
+Development version
+Registered to: Christian Behrenberg
+Unknown file format: C:\USERS\CHRISTIAN\DESKTOP\ITL\CODE\NPC.H
+Error E355: Startup failure
+Program aborted
+Close level,DLL,objects
+Free input,funcs,panels,defs,syns,views,strings,vars..ok
+Free sounds,bmaps,fonts,hash,defs1,script..ok
+Close dx,multimedia,D3D,engine,nexus..ok
+A8 Engine - Pro Edition V8.32.8 - Jun  8 2012
+(c) Conitec - www.3dgamestudio.com
+Registered to: Christian Behrenberg
+Close window at 45734.702

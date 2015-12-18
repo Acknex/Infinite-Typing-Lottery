@@ -1,0 +1,15 @@
+
+STRING* str_replace(STRING* str, char* original, char* replacement) 
+{
+	var start = str_stri(str,original);
+	if (start) 
+	{
+	  str_cpy(_str_temp,str);	
+		str_trunc(str,str_len(str)-start+1);
+		str_clip(_str_temp,start+str_len(original)-1);
+		str_cat(str,replacement);
+		str_cat(str,_str_temp);
+   	return str;
+	}
+	return NULL;
+}

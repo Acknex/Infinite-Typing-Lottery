@@ -1,0 +1,17 @@
+//////////Ohauerha//////////
+ACTION mino_hit {
+IF_ABOVE use,0; END;
+SET MY.IF_FAR,NULL;
+SET MY.EACH_TICK,NULL;
+RULE MY.SKILL1=(shotdmg-MY.SKILL7);
+IF (MY.SKILL1<=0) {RULE MY.SKILL1=0.5+RANDOM(1);}
+RULE MY.SKILL8-=MY.SKILL1;
+IF (MY.SKILL8<=0) {BRANCH mino_die;}
+PLAY_SOUND minohit_snd,1,MY;
+IF (MY.SKILL8<=2) {BRANCH mino_berserk;}//Fear of Death
+SET SHOOT_RANGE,300; //Attacking from behind is unfair. Mino gets angry
+SHOOT MY;
+IF (ABS(MY.ANGLE-SHOOT_ANGLE)>1.57) {
+	IF (MY.SKILL5>=2) {BRANCH mino_berserk;}
+	ADD MY.SKILL5,1;}//anger-level 1 up
+BRANCH mino_flee;}

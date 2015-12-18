@@ -1,0 +1,80 @@
+Log of A8 Engine 8.32.8 run at Sun Jun 17 11:28:31 2012
+Christian on Windows NT/2000/XP version 6.1 Build 7601
+Options C:\Users\Christian\Desktop\ITL\itl.c -diag
+App: G:\Dev\Engines\A8.32.0\acknex.exe in C:\Users\Christian\Desktop\ITL\
+
+MM mixer opened
+DSOUND device opened
+DI interface opened
+Start Window opened(c) Conitec - www.3dgamestudio.com
+A8 Engine - Pro Edition V8.32.8 - Jun  8 2012
+Development version
+Registered to: Christian Behrenberg
+
+Mouse found
+Lautsprecher (High Definition Audio-Gerät) opened
+ATI Mobility Radeon HD 4300 Series pure T&L device 1ff9 detected
+D3D device ATI Mobility Radeon HD 4300 Series 1ff9 selected.
+PATH menu\
+PATH sfx\
+PATH world\
+PATH music\
+PATH gfx\
+PATH shaders\
+PATH world\avatars\
+basswrap.dll opened
+ackAR.dll opened
+acknet.dll opened
+ackphysx.dll opened
+ackwii.dll opened
+Compiling ITL.C - [Esc] to abort..
+PATH code\
+PATH G:\Dev\Engines\A8.32.0\code\.......
+PATH G:\Dev\Engines\A8.32.0\code\.
+PATH G:\Dev\Engines\A8.32.0\code\
+PATH G:\Dev\Engines\A8.32.0\templates\images\................................
+AcknexMsgLoop: function not found
+DynamicModel_TemporaryAction: function not found
+DynamicModel_VertexEquals: function not found
+SaveMeshToX: function not found
+WeldVertices: function not found
+test123: function not found.......... 4.037 sec
+Running ITL.C.
+9 objects
+Main started at 5.249
+sfx_h_startup started
+mtlfx_startup started
+D3D_Init Screen: 1024x600 -> Screen: 1x1024x600x32
+Video memory found: 2289 MB
+Main loop at 7.162....
+1st frame with 2289 MB at 7.174
+HEADRELATIVE sound: 1
+LevelInit at 14.266
+141 entities 0 cameras 0 lights 0 sounds 4 paths
+ 1 lmaps 0 textures...ok
+LevelReady at 16.723
+No valid technique in mtl_hdr - enforcing filterStart
+No valid technique - enforcing filterStart
+No valid technique - enforcing filterStart
+No valid technique - enforcing filterStart
+No valid technique - enforcing gammaStart
+No valid technique - enforcing gammaStart
+No valid technique - enforcing gammaStart
+No valid technique - enforcing gammaStart
+No valid technique in mtl_terrain - enforcing t0
+No valid technique in mtl_terrain - enforcing t0
+No valid technique in mtl_terrain - enforcing t0
+No valid technique in mtl_specBump - enforcing spec
+No valid technique in mtlWater - enforcing t0
+LevelInit at 52.919 0 lmaps 0 textures...ok
+LevelReady at 52.947
+music\mRhapsody.ogg audio opened
+Normal exit at 187.880
+Close level,DLL,objects
+Free input,funcs,panels,defs,syns,views,strings,vars..ok
+Free sounds,bmaps,fonts,hash,defs1,script..ok
+Close dx,multimedia,D3D,engine,nexus..ok
+A8 Engine - Pro Edition V8.32.8 - Jun  8 2012
+(c) Conitec - www.3dgamestudio.com
+Registered to: Christian Behrenberg
+Close window at 190.978

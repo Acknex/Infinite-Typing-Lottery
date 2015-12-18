@@ -1,0 +1,14 @@
+if lesson == 2:
+    e = Engine("-nwnd -nc")
+    e.fps_max = 50
+    camera = e.camera
+    add_folder("C:\Program Files (x86)\GStudio7\samples")
+    level_load("small.hmp")
+    while e.frame():
+        camera.pan += -3 * e.key_force.x
+        camera.tilt += 3 * e.key_force.y
+        move = Vector()
+        move.x = 6 * (e.key_w - e.key_s)
+        move.y = 6 * (e.key_a - e.key_d)
+        camera.position += move.rotate(camera.orientation)
+    e.close()

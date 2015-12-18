@@ -1,0 +1,21 @@
+main:
+
+ in r17,DIPGPin      
+ mov r18,r17         
+ mov r19,r17         
+
+ andi r18,1<<DIPGChA 
+ cp r18,DIPGAlt      
+ breq DrButton       
+ mov DIPGAlt,r18     
+ lsl r19             
+ andi r19,1<<DIPGChA 
+ cp r18,r19          
+ breq DrLinks        
+DrRechts:
+ rcall rechts
+ rjmp DrButton
+DrLinks:
+ rcall links
+ rjmp DrButton
+DrButton:

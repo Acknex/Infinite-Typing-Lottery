@@ -1,0 +1,27 @@
+my.pan = you.pan + random(360);
+
+if(1 == 0)
+if (a == b) a = b;
+#include <default.c>
+
+switch( wParam )
+{
+	case 'b': ch = 'b'; break;
+	case '+': ch = '+'; break;
+}
+ 
+
+if (4 > 6)
+
+#define begin {
+#define TRUE 0
+
+(defun square (x) (* x x))
+
++++++[>+++++[>+++++<-]<-]
+
+/* This is just ridiculous...  but hey it works! Fuck you, eye cancer... */
+#define f2l(f) (*((long*)&f))  /* convert float to long */
+
+L(d2.A>0)X(d2.A,-T*3)+0*(d2.J+=T/20)*(d2.K-=T*.02)*m;
+//comment your code!

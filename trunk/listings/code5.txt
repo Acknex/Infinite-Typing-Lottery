@@ -1,0 +1,17 @@
+	<script type="text/javascript">
+		// <![CDATA[
+		var baseurl		= "/ubb7";
+		var fullurl		= "http://www.opserver.de/ubb7";
+		var script		= "http://www.opserver.de/ubb7/ubbthreads.php";
+		var imagedir		= "general/default";
+		var myUid		= '744';
+		var submitClicked 	= "Your post is already being submitted.";
+		var open_block		= new Image();
+		open_block.src		= baseurl + "/images/general/default/toggle_open.gif";
+		var closed_block	= new Image();
+		closed_block.src	= baseurl + "/images/general/default/toggle_closed.gif";
+		var loadingpreview	= "Loading Preview...";
+		var today		= '16';
+		var s_priv		= '1';
+		// ]]>
+	</script>
